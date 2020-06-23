@@ -1,0 +1,33 @@
+html, body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+  display: inline-grid;
+  background-color: #ff5db1;
+  height: 100%;
+  width:100%;
+}
+
+.grid-item {
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  background-color: #52a59c;
+  font-size: 20vw;
+  align-items: center;
+}
+
+.grid-item:hover {
+  background: #9deae8;
+}
+
+.grid-item-apri {
+  margin:20px 20px 10px 20px;
+}
+.grid-item-chiudi {
+  margin:10px 20px 20px 20px;
+}
