@@ -1,0 +1,13 @@
+# Contents of /lib/systemd/system/gate.service
+[Unit]
+Description=gate
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/home/bin
+ExecStart=/usr/bin/node gate.js
+
+[Install]
+WantedBy=multi-user.target
